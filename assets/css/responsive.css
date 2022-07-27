@@ -16,7 +16,9 @@
 
   /* For Small screens, laptops */
   @media screen and (min-width: 769px) and (max-width: 1024px) {
- 
+    #HeaderContainer .call-btn{
+     
+    }
   }
 
   /* For Desktops, large screens */

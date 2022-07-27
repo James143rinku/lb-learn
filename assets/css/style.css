@@ -32,17 +32,6 @@ Text Domain:
 /*--------- font-family: 'Poppins', sans-serif; ---------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-:root{
-    --white-color: white;
-    --title-color: ;
-    --sub-title-color: ;
-    --body-text-color: ;
-    --section-text-color: ;
-    --body-font: ;
-    --header-font: ;
-    --title-font: ;
-    --paragraph-font: ;
-}
 
 html{
     scroll-behavior: smooth;
@@ -109,8 +98,6 @@ p{
     font-weight: 500;
 }
 
-/* BUTTON */
-
 /*--------- Custom Scrollbar ---------*/
 
 ::-webkit-scrollbar{
@@ -141,7 +128,44 @@ body{
 ======================================
 */
 
-h1{
+/* Navbar Style */
+#HeaderContainer .navbar-brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+}
+#HeaderContainer .navbar-brand span.highlight{
+    color: rgb(0, 153, 255);
+}
+#HeaderContainer .navbar-brand .fa-graduation-cap{
+    transform: rotate(20deg);
+}
+#HeaderContainer .nav-item{
+    padding: 0 5px;
+}
+#HeaderContainer .nav-link{
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+}
+#HeaderContainer .nav-link.active{
+    color: rgb(0, 153, 255);
+}
+#HeaderContainer .nav-link:hover{
+    color: rgb(0, 153, 255);
+}
+#HeaderContainer .header-menu{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+#HeaderContainer .call-btn{
+    padding: 10px 20px;
     color: white;
-    font-size: 70px;
+}
+
+#HeaderContainer .call-btn:hover{
+    background-color: rgba(0, 153, 255, 0) !important;
 }
