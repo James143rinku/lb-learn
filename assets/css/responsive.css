@@ -1,0 +1,30 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* For  Mobile devices */
+@media screen and (max-width: 480px) {
+
+  }
+
+  /* For iPads, Tablets */
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+
+  }
+
+  /* For Small screens, laptops */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+ 
+  }
+
+  /* For Desktops, large screens */
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+  }
+
+  /* For Extra large screens, TV */
+  @media screen and (min-width: 1201px) {
+ 
+  }
