@@ -11,17 +11,6 @@ License URI:
 Text Domain:
 */
 
-/*================================================
---Table of Contents--
-1. Global Styles
-2. Body
-3. Navigation / #navbar 
-4. Content / #content
-5. Left-Column / #
-6. Footer / #footer
-================================================*/
-
-
 
 /*==============================================
     1. Global Styles
@@ -179,7 +168,6 @@ body{
 .HeaderSlider .carousel-item{
     width: 100%;
     height: 100vh;
-    min-height: 300px;
     background: no-repeat scroll center scroll;
     background-size: cover cover;
 }
@@ -194,7 +182,7 @@ body{
     opacity: .8;
 }
 .HeaderSlider .carousel-caption{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .HeaderSlider .carousel-caption p{
     color: white;    
@@ -219,10 +207,20 @@ body{
     width: 48%;
     margin: 10px;
 }
-
+/* About */
+#AboutContainer{
+    margin: 100px 0;
+}
+.about-text{
+    text-align: justify;
+}
+.about-img img{
+    width: 100%;
+    background-size: cover;
+}
 /* Company Logo  */
 .trust-company{
-    margin: 100px 0;
+    margin: 200px 0;
 }
 .company-logo img{
     width: 100px;
@@ -249,6 +247,12 @@ body{
     padding: 0 10px;
     font-size: 20px;
 }
+
 #faqs{
     margin-bottom: 150px;
+}
+.faqs-img img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
 }

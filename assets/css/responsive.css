@@ -12,18 +12,20 @@
   }
 
   .HeaderSlider .carousel-item{
-    height: 200px;
+    height: 250px;
   }
 
   .HeaderSlider .carousel-caption{
-    margin-bottom: 70px;
+    margin-bottom: 0;
   }
   .HeaderSlider .carousel-caption .get-started-btn{
     padding: 5px 20px;
     font-size: 14px;
   }
+  .course-header-title{
+    font-size: 20px;
+   }
   .HeaderSlider .carousel-item p{
-    font-size: 14px;
     display: none;
   }
 
@@ -42,11 +44,14 @@
       width: 100%;
       margin-bottom: 30px;
       overflow: hidden;
+      border: 1px solid gray !important;
+      padding: 0 10px;
     }
     .course-img img{
       width: 100vw;
       margin-bottom: 20px;
     }
+
      /* Registar */
   .reg-content{
     flex-direction: column;
@@ -57,6 +62,9 @@
   }
   .trust-company{
     display: none;
+  }
+  .about-text, .about-img{
+    width: 100% !important;
   }
   }
 
@@ -72,7 +80,7 @@
     }
 
     .HeaderSlider .carousel-caption{
-      margin-bottom: 30px;
+      margin-bottom: 0;
     }
     .HeaderSlider .carousel-caption .get-started-btn{
       padding: 5px 20px;
@@ -80,7 +88,9 @@
     }
     .HeaderSlider .carousel-item p{
       font-size: 14px;
+      margin-bottom: 10px;
     }
+    
 
     /* Courses */
     .CoursesHeader{
@@ -89,16 +99,19 @@
    .course-header-title{
     font-size: 50px;
    }
-    .course-item{
-      flex-direction: column;
-      width: 100%;
-      margin-bottom: 30px;
-      overflow: hidden;
-    }
+   .course-item{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid gray !important;
+    padding: 0 10px;
+  }
     .course-img img{
       width: 100vw;
       margin-bottom: 20px;
     }
+
 
      /* Registar */
   .reg-content{
@@ -112,6 +125,9 @@
     display: none;
   }
 
+  .about-text, .about-img{
+    width: 100% !important;
+  }
   }
 
   /* For Small screens, laptops */
@@ -150,7 +166,10 @@
   .trust-company{
     display: none;
   }
-
+  .about-text, .about-img{
+    width: 100% !important;
+  }
+ 
 
 
   }
