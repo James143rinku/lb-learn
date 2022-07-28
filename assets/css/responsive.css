@@ -6,24 +6,123 @@
 
 /* For  Mobile devices */
 @media screen and (max-width: 480px) {
+  .HeaderSlider .carousel-item h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .HeaderSlider .carousel-item{
+    height: 200px;
+  }
+
+  .HeaderSlider .carousel-caption{
+    margin-bottom: 70px;
+  }
+  .HeaderSlider .carousel-caption .get-started-btn{
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+  .HeaderSlider .carousel-item p{
+    font-size: 14px;
+    display: none;
+  }
+
+     /* Courses */
+  .CoursesHeader{
+      width: 100% !important;
+     }
+   .course-header-title{
+    font-size: 30px;
+   }
+   .course-header-brief{
+    font-size: 14px;
+   }
+     .course-item{
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .course-img img{
+      width: 100vw;
+      margin-bottom: 20px;
+    }
 
   }
 
   /* For iPads, Tablets */
   @media screen and (min-width: 481px) and (max-width: 768px) {
+    .HeaderSlider .carousel-item h1{
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+
+    .HeaderSlider .carousel-item{
+      height: 300px;
+    }
+
+    .HeaderSlider .carousel-caption{
+      margin-bottom: 30px;
+    }
+    .HeaderSlider .carousel-caption .get-started-btn{
+      padding: 5px 20px;
+      font-size: 14px;
+    }
+    .HeaderSlider .carousel-item p{
+      font-size: 14px;
+    }
+
+    /* Courses */
+    .CoursesHeader{
+      width: 100% !important;
+     }
+   .course-header-title{
+    font-size: 50px;
+   }
+    .course-item{
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .course-img img{
+      width: 100vw;
+      margin-bottom: 20px;
+    }
 
   }
 
   /* For Small screens, laptops */
   @media screen and (min-width: 769px) and (max-width: 1024px) {
-    #HeaderContainer .call-btn{
-     
+
+    h1{
+      font-size: 40px;
     }
+
+    .HeaderSlider .carousel-item{
+      height: 500px;
+    }
+
+    .HeaderSlider .carousel-caption{
+      margin-bottom: 80px;
+    }
+
+    /* Courses */
+    .CoursesHeader{
+      width: 100% !important;
+     }
+
+    .course-item{
+      width: 100%;
+      margin: 10px;
+  }
+
   }
 
   /* For Desktops, large screens */
   @media screen and (min-width: 1025px) and (max-width: 1200px) {
-
+    .course-item{
+      width: 100%;
+      margin: 10px;
+  }
   }
 
   /* For Extra large screens, TV */
