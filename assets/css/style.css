@@ -220,4 +220,32 @@ body{
     margin: 10px;
 }
 
-/*Register*/
+/* Company Logo  */
+.trust-company{
+    margin: 100px 0;
+}
+.company-logo img{
+    width: 100px;
+}
+
+/* Footer */
+.footer-container{
+    padding: 100px 0;
+
+}
+.footer-brand{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.footer-brand:hover{
+    color: white;
+}
+.footer-txt{
+    font-size: 14px;
+    padding: 10px 0;
+}
+.social-logo a{
+    padding: 0 10px;
+    font-size: 20px;
+}

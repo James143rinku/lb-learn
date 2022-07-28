@@ -55,8 +55,9 @@
   .register-content{
     width: 100% !important;
   }
-
-
+  .trust-company{
+    display: none;
+  }
   }
 
   /* For iPads, Tablets */
@@ -107,7 +108,9 @@
   .register-content{
     width: 100% !important;
   }
-
+  .trust-company{
+    display: none;
+  }
 
   }
 
@@ -143,6 +146,9 @@
   }
   .register-content{
     width: 100% !important;
+  }
+  .trust-company{
+    display: none;
   }
 
 
