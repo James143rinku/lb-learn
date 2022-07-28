@@ -96,7 +96,12 @@ p{
     line-height: 1.5;
     font-weight: 600;
 }
-
+section#courses{
+    margin-bottom: 200px;
+}
+#RegisterContainer{
+    margin-bottom: 100px;
+}
 /*--------- Custom Scrollbar ---------*/
 
 ::-webkit-scrollbar{
@@ -214,3 +219,5 @@ body{
     width: 48%;
     margin: 10px;
 }
+
+/*Register*/

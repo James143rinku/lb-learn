@@ -41,11 +41,21 @@
       flex-direction: column;
       width: 100%;
       margin-bottom: 30px;
+      overflow: hidden;
     }
     .course-img img{
       width: 100vw;
       margin-bottom: 20px;
     }
+     /* Registar */
+  .reg-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .register-content{
+    width: 100% !important;
+  }
+
 
   }
 
@@ -82,11 +92,22 @@
       flex-direction: column;
       width: 100%;
       margin-bottom: 30px;
+      overflow: hidden;
     }
     .course-img img{
       width: 100vw;
       margin-bottom: 20px;
     }
+
+     /* Registar */
+  .reg-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .register-content{
+    width: 100% !important;
+  }
+
 
   }
 
@@ -114,6 +135,17 @@
       width: 100%;
       margin: 10px;
   }
+
+  /* Registar */
+  .reg-content{
+    flex-direction: column;
+    text-align: center;
+  }
+  .register-content{
+    width: 100% !important;
+  }
+
+
 
   }
 
