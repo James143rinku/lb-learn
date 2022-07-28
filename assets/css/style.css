@@ -226,6 +226,24 @@ body{
     width: 100px;
 }
 
+/*Success*/
+.sucess-content{
+    width: 250px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sucess-content img{
+    width: 100%;
+}
+.sucess-content .skill{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(143, 143, 143);
+}
+.sucess-content .brief{
+    font-size: 14px;
+}
 /* Footer */
 .footer-container{
     padding: 60px 0;
